@@ -3867,7 +3867,7 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #fd5f00;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
@@ -8989,6 +8989,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  overflow-x: visible;
+}
+
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #fff;
@@ -9028,7 +9032,7 @@ h1, h2, h3, h4, h5,
 .topper {
   font-size: 15px;
   width: 100%;
-  display: block;
+  display: flex;
 }
 @media (max-width: 767.98px) {
   .topper {
@@ -9293,8 +9297,9 @@ h1, h2, h3, h4, h5,
 }
 
 .navbar-brand {
+  color: #fd5f00;
   font-weight: 900;
-  font-size: 38px;
+  font-size: 32px;
   padding: 0;
   line-height: 1;
   text-transform: uppercase;

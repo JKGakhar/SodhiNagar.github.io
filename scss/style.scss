@@ -52,9 +52,9 @@ $fifth: #5d50c6;
 
 
 //Empty Ruleset may be used in Future but for now not in use. JKG
-// html {
-// 	// overflow-x: hidden;
-// }
+html {
+ overflow-x:visible;
+ }
 body {
 	font-family: $font-primary;
 	background: $white;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5,
 .topper{
 	font-size: 15px;
 	width: 100%;
-	display: block;
+	display: flex;
 	@include media-breakpoint-down(sm){
 		margin-bottom: 10px;
 
@@ -378,8 +378,9 @@ h1, h2, h3, h4, h5,
 }
 
 .navbar-brand {
+	color:$primary;
 	font-weight: 900;
-	font-size: 38px;
+	font-size: 32px;
 	padding: 0;
 	line-height: 1;
 	text-transform: uppercase;
