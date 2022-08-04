@@ -128,37 +128,39 @@ h1, h2, h3, h4, h5,
 		@include border-radius(0);
 	}
 }
-.searchform{
-	height:54px;
-	border: 1px solid rgba(255,255,255,.1);
-	@include border-radius(30px);
-	.form-control{
-		width: calc(100% - 52px);
-		border: none;
-		background: transparent !important;
-		color: rgba(255,255,255,.7) !important;
-		font-size: 16px;
-		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-		  color: rgba(255,255,255,.7) !important;
-		}
-		&::-moz-placeholder { /* Firefox 19+ */
-		  color: rgba(255,255,255,.7) !important;
-		}
-		&:-ms-input-plac255h255l255er { /* IE 0+ */
-		  color: rgba(255,255,255,.7) !important;
-		}
-		&:-moz-placeholder { /* Firefox 18- */
-		  color: rgba(255,255,255,.7) !important;
-		}
-	}
-	.search{
-		width: 52px;
-		height: 52px;
-		span{
-			font-size: 20px;
-		}
-	}
-}
+
+// Search Form is not being used so i intentionally comment it. JKG
+// .searchform{
+// 	height:54px;
+// 	border: 1px solid rgba(255,255,255,.1);
+// 	@include border-radius(30px);
+// 	.form-control{
+// 		width: calc(100% - 52px);
+// 		border: none;
+// 		background: transparent !important;
+// 		color: rgba(255,255,255,.7) !important;
+// 		font-size: 16px;
+// 		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+// 		  color: rgba(255,255,255,.7) !important;
+// 		}
+// 		&::-moz-placeholder { /* Firefox 19+ */
+// 		  color: rgba(255,255,255,.7) !important;
+// 		}
+// 		&:-ms-input-plac255h255l255er { /* IE 0+ */
+// 		  color: rgba(255,255,255,.7) !important;
+// 		}
+// 		&:-moz-placeholder { /* Firefox 18- */
+// 		  color: rgba(255,255,255,.7) !important;
+// 		}
+// 	}
+// 	.search{
+// 		width: 52px;
+// 		height: 52px;
+// 		span{
+// 			font-size: 20px;
+// 		}
+// 	}
+// }
 
 
 
@@ -391,9 +393,6 @@ h1, h2, h3, h4, h5,
 		letter-spacing: 2px;
 	}
 }
-
-
-
 
 .hero-wrap{
 	width: 100%;
@@ -657,7 +656,7 @@ h1, h2, h3, h4, h5,
 // }
 
 .bg-light {
-	background: #fafafa!important;
+	background: #fafafa !important;
 }
 
 .bg-darken {
@@ -802,6 +801,10 @@ h1, h2, h3, h4, h5,
 	}
 	.img{
 		width: 100%;
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+		resize:both;
 	}
 }
 
@@ -1113,18 +1116,6 @@ h1, h2, h3, h4, h5,
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 // USEFUL CODE
 .aside-stretch{
@@ -1475,6 +1466,8 @@ textarea.form-control {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	align-items: center;
+	justify-content: center;
 }
 
 

@@ -6785,15 +6785,15 @@ button.bg-dark:focus {
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 123, 255, 0.075) !important;
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.175) !important;
 }
 
 .shadow-none {
@@ -9066,38 +9066,6 @@ h1, h2, h3, h4, h5,
   border-radius: 0;
 }
 
-.searchform {
-  height: 54px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 30px;
-}
-.searchform .form-control {
-  width: calc(100% - 52px);
-  border: none;
-  background: transparent !important;
-  color: rgba(255, 255, 255, 0.7) !important;
-  font-size: 16px;
-}
-.searchform .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: rgba(255, 255, 255, 0.7) !important;
-}
-.searchform .form-control::-moz-placeholder { /* Firefox 19+ */
-  color: rgba(255, 255, 255, 0.7) !important;
-}
-.searchform .form-control:-ms-input-plac255h255l255er { /* IE 0+ */
-  color: rgba(255, 255, 255, 0.7) !important;
-}
-.searchform .form-control:-moz-placeholder { /* Firefox 18- */
-  color: rgba(255, 255, 255, 0.7) !important;
-}
-.searchform .search {
-  width: 52px;
-  height: 52px;
-}
-.searchform .search span {
-  font-size: 20px;
-}
-
 .ftco-navbar-light {
   background: transparent !important;
   z-index: 3;
@@ -9699,6 +9667,10 @@ h1, h2, h3, h4, h5,
 }
 .wrap-about .img {
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  resize: both;
 }
 
 .ftco-services {
@@ -10285,6 +10257,8 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimony-section {
