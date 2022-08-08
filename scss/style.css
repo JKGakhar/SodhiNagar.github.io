@@ -6785,15 +6785,15 @@ button.bg-dark:focus {
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 123, 255, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(253, 126, 20, 0.075) !important;
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(253, 126, 20, 0.5) !important;
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(253, 126, 20, 0.175) !important;
 }
 
 .shadow-none {
@@ -10396,7 +10396,6 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
   transition: all 0.3s ease-out;
 }
 
